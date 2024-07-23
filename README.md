@@ -24,9 +24,9 @@ Split the data into training and testing sets using train_test_split
 Implemented and evaluated three machine learning models: K-Nearest Neighbors (KNN), Logistic Regression, and Random Forest
 Used metrics such as F1 score, ROC AUC score, and Cross-Validation score to evaluate the models
 ### 4. Insights and Findings
-Logistic Regression performed the best overall with balanced performance across all metrics
-Random Forest and KNN exhibited overfitting, as indicated by the disparity between cross-validation scores and test set scores
-Evaluated the performance of Logistic Regression using different subsets of the data (quarterly and half-yearly data) to understand the impact of incomplete data on prediction accuracy
-Key Results
+1. Logistic Regression performed the best overall with balanced performance across all metrics
+2. Random Forest and KNN exhibited overfitting, as indicated by the disparity between cross-validation scores and test set scores
+3. Evaluated the performance of Logistic Regression using different subsets of the data (quarterly and half-yearly data) to understand the impact of incomplete data on prediction accuracy
+### Key Results
 Logistic Regression is the most suitable model for predicting floods in this dataset
 Second quarter data (April, May, June) is most predictive when full-year data is not available, likely due to the significant correlation between these months' rainfall and annual rainfall
